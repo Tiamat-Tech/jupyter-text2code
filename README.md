@@ -1,5 +1,5 @@
 # Text2Code for Jupyter notebook
-### A proof-of-concept jupyter extension which converts english queries into relevant python code. 
+### A proof-of-concept jupyter extension which converts english queries into relevant python code.
 
 
 ![](jupyter-text2code-demo.gif)
@@ -87,6 +87,7 @@ The detailed training steps are available in [scripts README](scripts/README.md)
 - [X] Refactor code and make it mode modular, remove duplicate code, etc
 - [X] Add support for more commands
 - [X] Improve intent detection and NER
+- [ ] Bind with small LLMs
 - [ ] Add support for Windows
 - [ ] Explore sentence Paraphrasing to generate higher-quality training data
 - [ ] Gather real-world variable names, library names as opposed to randomly generating them
